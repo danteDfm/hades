@@ -1,0 +1,196 @@
+/* container pantallas */
+
+.form_container{
+  
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+ 
+   
+    background-image: url("../../assets/img/universo1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* formulario */
+.form_container .content_login{
+    
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+   
+ 
+}
+
+.login{
+    box-shadow: 0px 0px 20px #000000;
+    border-radius: 10px;
+
+   
+    width: 370px;
+    height: 550px;
+    display: flex;
+ 
+    backdrop-filter: blur(40px);
+}
+
+
+
+
+.content_login .title_login{
+    
+    font-family: 'Roboto', sans-serif;
+
+    
+}
+
+.form_login{
+
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.i1, .i2{
+
+    display: flex;
+    flex-direction: column;
+
+    width: 80%;
+    height: 60px;
+    margin: 5px;
+    justify-content: center;
+}
+.i1 span, .i2 span{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.916);
+  
+    
+}
+.i1 input, .i2 input{
+    height: 30px;
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 0.5px rgb(255, 255, 255) solid;
+    color: rgba(255, 255, 255, 0.916);
+ 
+    font-size: 17px;
+}
+.i1 input:focus, .i2 input:focus{
+
+   outline: 0cap;
+}
+
+.form_login .bt1{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    display: flex;
+    flex-direction: column;
+ 
+    width: 80%;
+    height: 60px;
+    margin: 5px;
+    justify-content: end;
+    align-items: center;
+}
+.form_login .bt1 button{
+
+    border: 0px;
+    background-color: rgb(110, 187, 255);
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    color: white;
+    transition: 1s ease;
+}
+.form_login .bt1 button:hover{
+   
+    background-color: rgb(110, 187, 255);
+    cursor: pointer;
+    box-shadow: 5px 5px 30px  rgb(110, 187, 255);
+  
+}
+
+.form_container .login h1{
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0.916);
+    text-align: center;
+}
+.form_container .login p{
+    font-size: 5px;
+    color: rgba(255, 255, 255, 0.916);
+}
+
+
+
+
+
+.list_redes{
+    width: 100%;
+    height: 130px;
+  
+    margin: 0%;
+    display: flex;
+ 
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+   
+  
+    padding: 0%;
+}
+
+.list_redes .intagram, .likedin, .pagina{
+
+    
+      display: flex;
+     justify-content: center;
+     margin: 0%;
+     padding: 0%;
+    
+}
+
+.log_icon{
+    
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+  
+}
+.instagram_log{
+    background-image: url("../../assets/iconos/instagram.png");
+}
+.pagina_log{
+    background-image: url("../../assets/iconos/whatsapp.png");
+
+}
+.likedin_log{
+    background-image: url("../../assets/iconos/linkedin.png");
+}
+
+
+.link_pagina{
+   
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link_pagina a{
+    font-size: 10px;
+   
+    text-decoration: dashed;
+   color: white;
+}
